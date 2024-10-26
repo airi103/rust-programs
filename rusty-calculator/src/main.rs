@@ -55,7 +55,7 @@ fn main() {
             println!("{} * {} = {}", x, y, x * y);
         }
         4 => {
-            // subtraction
+            // division
             if y == 0 {
                 println!("Cannot divide by zero.");
                 std::process::exit(1);
